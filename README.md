@@ -1,12 +1,11 @@
 # baiduMapUtills
 百度地图V3.3.3 
-<<<<<<< HEAD
+
+
 
 1，引用baidulibrary （library的清单文件中的权限 和assets资源文件 无法被项目引用 布局可以引用）
 
-2，根据工程名称和开发者电脑的安全码 Android SDK安全码组成：数字签名+;+包名（我的
-9D:A9:8C:1D:17:A2:CC:50:A8:68:C5:0F:7C:43:E3:54:4C:79:D1:51
-27:77:F0:1A:87:92:C9:C9:BB:AC:14:40:1B:AB:8D:D2:1A:53:AC:22）
+2，根据工程名称和开发者电脑的安全码 Android SDK安全码组成：数字签名+;+包名
 
 申请百度map的key		
 	申请地址：http://lbsyun.baidu.com/apiconsole/key
@@ -76,5 +75,5 @@
 	setFrequency(int frequency) 设置卫星扫面间隔默认1000毫秒 每隔1秒更新位置
 	stopLocation()  取消定位  destory的时候 调用
 	setOnLocationSearchListener(OnLocationSearchListener lsl)定位监听
-=======
->>>>>>> 2a9a81b3e13219b91d0af59c02cb8fda0339e08b
+
+
